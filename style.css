@@ -1,0 +1,780 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* introduction */
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #6133C8;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.title{
+    color: white;
+    margin-left: 40px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+}
+li a{
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    transition: 2s;
+}
+li a:hover{
+    border-bottom: solid 1.5px #A174EF;
+}
+
+/* content */
+
+main{
+    width: 100%;
+    height: 100vh;
+    
+    text-align: center;
+    margin-top: 0;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: #D4B6FD;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgb(36, 36, 36);
+}
+.text{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.img1{
+    width: 50%;
+    float: right;
+}
+
+.png1{
+    width: 50%;
+}
+.minititle{
+    color: #21027C;
+    padding-bottom: 50px;
+    padding-left: 26px;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.p1{
+    color: rgb(24, 23, 23);
+    padding-left: 26px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+
+}
+.mini2{
+    padding-left: 40px;
+    color: #21027C;
+    background-color: #A174EF;
+    width: 100%;
+    height: 30px;
+    
+}
+.services{
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+.carre{
+    width: 25%;
+    height: 50%;
+    border: solid 4px #6133C8;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.ppp1 {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+
+.logo{
+    width: 99%;
+    height: 50%;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 49%;
+    
+}
+p{
+    font-size: 21px;
+    font-weight: 600;
+    color: #6133C8;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+a button {
+    margin-top: 12px;
+    width: 180px;
+    height: 35px;
+    font-size: 21px;
+    color: white;
+    background-color: #6133C8;
+    border:solid 1px #6133C8 ;
+    transform-origin: 1s;
+}
+a button:hover{
+    background-color: white;
+    color: #6133C8;
+}
+
+/* about us */
+.about{
+    margin-top: 120px;
+    width: 100%;
+    height: 85vh;
+    
+}
+.aboutus{
+    width: 100%;
+    height: 10vh;
+}
+.mini3{
+    color: #21027C;
+    padding-left: 40px;
+    width: 100%;
+    height: 30px;
+    background-color: #A174EF;
+}
+.owners{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+}
+.admin1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.png2{
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    margin-top: 15px;
+}
+h3{
+    margin-top: 15px;
+    color: #21027C;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.jobs{
+    color: rgb(29, 28, 28);
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.para{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+.paragraph{
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    color: rgb(29, 28, 28);
+    
+}
+span{
+    color: #21027C;
+    margin-left: 10px ;
+}
+
+/* Contact us*/
+
+.contitle{
+    color: #21027C;
+    padding-left: 40px;
+    width: 100%;
+    height: 35px;
+    background-color: #A174EF;
+}
+.contact{
+    width: 100%;
+    height: 85vh;
+    
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    
+}
+.carte{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.containfo{
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px #D4B6FD;
+    background-color: #D4B6FD;
+    margin: 50px 30px;
+    box-shadow: 0px 0px 15px rgb(26, 25, 25) ;
+}
+.map{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.maps11{
+    margin-top: 20px;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #6133C8;
+    margin-top: 30px;
+    text-align: center;
+}
+.banks{
+    width: 100%;
+    height: 80%;
+    display: inline;
+    margin-top: 10px;
+    
+}
+
+.bank1{
+    width: 90px;
+    height: 90px;
+    margin-right: 20px ;
+    
+}
+.bank2{
+    width: 95px;
+    height: 90px;
+    margin: 10px 0;
+}
+.bank3{
+    width: 110px;
+    height: 90px;
+    margin: 10px 0;
+}.bank4{
+    width: 100px;
+    height: 90px;
+    margin: 10px 0;
+}.bank5{
+    width: 140px;
+    height: 100px;
+    margin: 10px 0;
+}
+.copy{
+    margin-bottom: 0;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+
+/* responsive for phones*/
+
+@media (max-width :600px) {
+    header{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+    }
+
+    .title{
+        width: 100%;
+        height: 7vh;
+        background-color: #6133C8;
+        padding-top: 20px;
+        margin-left: 0px;
+
+    }
+
+    .list{
+        width: 100%;
+        height: 22vh;
+        background-color: #D4B6FD;
+        margin-bottom: 10px;
+    }
+    
+    ul  {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    ul li{
+        margin-top: 10px;
+        padding: 3px 0 3px 0;
+        width: 100%;
+    }
+    ul li :hover{
+        color: #21027C;
+    }
+
+    main{
+        height: 80vh;
+    }
+
+    .container{
+        display: block;
+        text-align: center;
+        align-items: center;
+        height: 450px;
+        
+    }
+
+    .img1{
+        display: none;
+    }
+    .png1{
+        display: none;
+    }
+    .text{
+        width: 100%;
+
+    }
+    .p1{
+        width: 90%;
+    }
+    .minititle{
+        width: 90%;
+    }
+    .carre{
+        width: 49%;
+        height: 15%;
+    }
+    .services{
+        height: 250vh;
+        width: 100%;
+        
+        display: block;
+        
+
+    }
+    .map{
+        display: none;
+    }
+    
+    a button{
+        width: 100%;
+        height: 25px;
+        font-size: 16px;
+        padding: 2px;
+    }
+
+    .ppp1{
+        width: 95px;
+        height: 95px;
+    }
+    .about{
+        height: 180vh;
+    }
+
+    .owners{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .admin1{
+        width: 100%;
+        height: 42%;
+    }
+    .png2{
+        width: 25%;
+        height: 30%;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .jobs{
+        font-size: 21px;
+    }
+    .paragraph{
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .contact{
+        height: 65vh;
+    }
+
+    .carte{
+        
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .containfo{
+        font-size: 21px;
+        line-height: 40px;
+    }
+    footer{
+        height: 300px;
+    }
+    .banks{
+        height: 70%;
+    }
+    .name p{
+        font-size: 18px;
+    }
+   
+
+
+}
+/*401------455*/
+
+
+/* responsive for miniphones*/
+
+@media  (max-width:455px){
+          .minititle{
+            font-size: 22px;
+            margin-top: 20px;
+          }
+          .p1{
+            font-size: 20px;
+            
+          }
+          .paragraph{
+            font-size: 16px;
+            text-align: center;
+          }
+          .containfo{
+            font-size: 15px;
+          }
+          .copy{
+            font-size: 15px;
+          }
+          
+}
+
+/* responsive for tablets*/
+@media (min-width:601px) and (max-width:750px) {
+    header{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+    }
+
+    .title{
+        width: 100%;
+        height: 7vh;
+        background-color: #6133C8;
+        padding-top: 20px;
+        margin-left: 0px;
+
+    }
+
+    .list{
+        width: 100%;
+        height: 22vh;
+        background-color: #D4B6FD;
+        margin-bottom: 10px;
+    }
+    ul  {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    ul li{
+        margin-top: 10px;
+        padding: 3px 0 3px 0;
+        width: 100%;
+    }
+    ul li :hover{
+        color: #21027C;
+    }
+    main{
+        height: 80vh;
+    }
+
+    .container{
+        display: block;
+        text-align: center;
+        align-items: center;
+        height: 450px;
+        
+    }
+
+    .img1{
+        display: none;
+    }
+    .png1{
+        display: none;
+    }
+    .text{
+        width: 100%;
+
+    }
+    .p1{
+        width: 90%;
+    }
+    .minititle{
+        width: 90%;
+    }
+    .carre{
+        width: 70%;
+        height: 15%;
+        margin-bottom: 0;
+    }
+    .services{
+        height: 250vh;
+        width: 100%;
+        display: block;
+        
+
+        
+    
+    }
+    .map{
+        display: none;
+    }
+    
+    a button{
+        width: 100%;
+        height: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 2px;
+    }
+
+    .ppp1{
+        width: 95px;
+        height: 95px;
+    }
+    .about{
+        height: 180vh;
+    }
+
+    .owners{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .admin1{
+        width: 100%;
+        height: 42%;
+    }
+    .png2{
+        width: 25%;
+        height: 30%;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .jobs{
+        font-size: 21px;
+    }
+    .paragraph{
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .contact{
+        height: 65vh;
+    }
+
+    .carte{
+        
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .containfo{
+        font-size: 21px;
+        line-height: 40px;
+    }
+    footer{
+        height: 200px;
+    }
+    .banks{
+        height: 70%;
+    }
+    .name p{
+        font-size: 18px;
+    }
+
+}
+
+/* rsp for big-tablets*/
+@media (min-width:751px) and (max-width:830px){
+     li a{
+        font-size: 15px;
+     }
+     .minititle{
+        font-size: 22px;
+        font-weight: 600;
+     }
+     .p1{
+        font-size: 21px;
+     }
+     .png1{
+        width: 60%;
+     }
+    
+     .name p{
+        font-size: 18px;
+     }
+     a button{
+        width: 180px;
+        height: 25px;
+        font-size: 19px;
+        font-weight: 600;
+     }
+     .map{
+        display: none;
+     }
+     .carte{
+        width: 100%;
+     }
+     .owners{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    
+        
+        
+    }
+    .admin1{
+        width: 20%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .jobs{
+        font-size: 18px;
+    }
+    .containfo{
+        font-size: 19px;
+    }
+    .png2{
+        border-radius: 50%;
+        width: 50%;
+        height: 35%;
+        margin-top: 15px;
+    }
+
+
+}
+/* other size*/
+@media (min-width:831px) and (max-width:1300px){
+
+ .owners{
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+
+   
+   
+ }
+ .admin1{
+   width: 20%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+   text-align: center;
+   margin-left: 40px;
+ }
+ .jobs{
+   font-size: 18px;
+ }
+ .containfo{
+   font-size: 19px;
+ }
+ .png2{
+   border-radius: 50%;
+   width: 50%;
+   height: 35%;
+   margin-top: 15px;
+ }
+}
+
+
+
+
